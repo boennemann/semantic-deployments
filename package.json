@@ -1,0 +1,30 @@
+{
+  "name": "semantic-deployments",
+  "description": "automatically create deployment events and releases based on conventional commits",
+  "version": "0.0.0",
+  "author": "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
+  "bugs": {
+    "url": "https://github.com/boennemann/semantic-deployments/issues"
+  },
+  "homepage": "https://github.com/boennemann/semantic-deployments#readme",
+  "keywords": [
+    "changelog",
+    "continous-delivery",
+    "continous-deployment",
+    "github-bot",
+    "semver"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boennemann/semantic-deployments.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
